@@ -19,7 +19,7 @@ app.get("", (req, res) => {
   res.render("index");
 });
 app.get("/about", (req, res) => {
-  res.render("about", { title: "about" });
+  res.render("about", { title: "aboutt" });
 });
 
 app.get("/help", (req, res) => {
